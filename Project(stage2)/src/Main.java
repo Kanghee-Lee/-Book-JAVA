@@ -4,7 +4,7 @@ public class Main {
 	static Scanner sc = new Scanner(System.in);
 	
 	public static void main(String[] args) {
-		PhoneInfo[] frd = new PhoneInfo[2];
+		PhoneInfo[] frd = new PhoneInfo[100];
 
 		int choice;
 		int frdCount = 0;
@@ -16,7 +16,7 @@ public class Main {
 			
 			switch(choice) {
 			case 1: 
-				if(frdCount==2) {
+				if(frdCount==100) {
 					System.out.println("전화번호부가 꽉 찼습니다");
 					break;
 				}
