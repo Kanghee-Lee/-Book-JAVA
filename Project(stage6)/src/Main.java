@@ -34,7 +34,6 @@ public class Main {
 			catch(MenuChoiceException e) {
 				e.showWrongChoice();
 				System.out.println("메뉴 선택을 처음부터 다시 진행합니다.\n");
-				continue;
 			}
 		}
 	}
