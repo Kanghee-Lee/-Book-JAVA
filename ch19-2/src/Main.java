@@ -2,7 +2,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		Business bs1 = new Business("구글", "computer");
+		Business bs1 = new Business("구글", "computer science");
 		PersonInfo per1 = new PersonInfo("kanghee", 23, bs1);
 		PersonInfo per2;
 		try {
