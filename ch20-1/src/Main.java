@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Integer iValue1 = Integer.valueOf(10);
+		Integer iValue2 = Integer.valueOf(10);
+		Integer iValue3 = Integer.valueOf(20);
+		
+		if(iValue1 == iValue2)
+			System.out.println("iValue1과 iValue2는 동일 인스턴스 참조");
+		else
+			System.out.println("iValue1과 iValue2는 다른 인스턴스 참조");
+		
+		if(iValue1 == iValue3)
+			System.out.println("iValue1과 iValue3는 동일 인스턴스 참조");
+		else
+			System.out.println("iValue1과 iValue3는 다른 인스턴스 참조");
+
+	}
+
+}
